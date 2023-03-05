@@ -1,60 +1,92 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
+/* Dropdown menu */
 
-/* Navbar styles */
-.navbar {
-  background-color: #333;
-  color: #fff;
-  height: 60px;
-  border: none;
-}
+.navbar .dropdown-menu {
 
-.navbar-brand {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.navbar-nav > li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.navbar-nav > li > a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Page heading styles */
-.container {
-  margin-top: 100px;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-top: 70px;
-  text-align: center;
-}
-
-/* Box styles */
-.box {
   background-color: #f9f9f9;
-  margin: 50px 0;
-  padding: 50px;
-  border: 1px solid #ccc;
+
+  border: none;
+
+  border-radius: 0;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
 }
 
-.box h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.navbar .dropdown-menu a {
+
+  color: #333;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
 }
 
-.box p {
-  font-size: 16px;
-  line-height: 1.5;
+.navbar .dropdown-menu a:hover {
+
+  background-color: #f1f1f1;
+
 }
+
+/* Change color of dropdown menu arrow */
+
+.navbar .dropdown-menu::after {
+
+  content: '';
+
+  display: inline-block;
+
+  border-left: 6px solid transparent;
+
+  border-right: 6px solid transparent;
+
+  border-top: 6px solid #555;
+
+  position: absolute;
+
+  top: -6px;
+
+  right: 10px;
+
+}
+
+/* Style the active menu item */
+
+.navbar .active {
+
+  background-color: #4CAF50;
+
+  color: #fff !important;
+
+}
+
+.navbar .active:hover {
+
+  background-color: #4CAF50;
+
+  color: #fff !important;
+
+}
+
+/* Change color of menu bar when dropdown menu is open */
+
+.navbar .open > a {
+
+  background-color: #4CAF50 !important;
+
+  color: #fff !important;
+
+}
+
+.navbar .open > a:hover {
+
+  background-color: #4CAF50 !important;
+
+  color: #fff !important;
+
+}
+
+
+  
