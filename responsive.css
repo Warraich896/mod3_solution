@@ -7,7 +7,9 @@
 
 /* Show the menu button in mobile mode */
 .navbar-toggle {
-  display: block;
+  margin-top: 15px;
+
+  margin-bottom: 15px;
 }
 
 /* Hide the heading buttons in mobile mode */
