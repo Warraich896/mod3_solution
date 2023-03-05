@@ -1,0 +1,55 @@
+/* Navbar */
+
+.navbar-brand {
+  display: none;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #B30000;
+}
+
+.navbar-default .navbar-collapse {
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-collapse > ul > li > a {
+  color: #B30000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Page Heading */
+
+@media (max-width: 767px) {
+  h1 {
+    margin-top: 100px;
+  }
+}
+
+/* Single Box */
+
+@media (max-width: 767px) {
+  .box {
+    margin-top: 120px;
+    padding: 20px;
+  }
+
+  .box h2 {
+    font-size: 24px;
+  }
+
+  .box p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

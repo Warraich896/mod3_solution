@@ -1,0 +1,47 @@
+/* Navbar */
+
+.navbar-default {
+  background-color: #FFFFFF;
+  border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-brand {
+  color: #777777;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #777777;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #B30000;
+}
+
+/* Page Heading */
+
+h1 {
+  font-size: 36px;
+  margin-top: 60px;
+}
+
+/* Single Box */
+
+.box {
+  background-color: #F7F7F7;
+  margin-top: 60px;
+  padding: 40px;
+}
+
+.box h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.box p {
+  font-size: 18px;
+  line-height: 28px;
+}
