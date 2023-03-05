@@ -1,9 +1,6 @@
 /* Mobile Layout: 0px to 767px. */
 
 /* Hide the food LLC brand in mobile mode */
-.navbar-brand.visible-xs {
-  display: none;
-}
 
 /* Show the menu button in mobile mode */
 .navbar-toggle {
