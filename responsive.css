@@ -67,7 +67,11 @@
     margin-top: 40px;
 
   }
+.navbar-brand.visible-xs {
 
+    display: block;
+
+  }
 navbar-nav > li {
 
     display: none;
