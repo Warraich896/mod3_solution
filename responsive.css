@@ -18,6 +18,29 @@
 }
 
 /* Show the heading buttons when menu button is clicked */
+.navbar-default .navbar-toggle:focus,
+
+.navbar-default .navbar-toggle:hover {
+
+  background-color: transparent;
+
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+
+  background-color: #B30000;
+
+}
+
+
+.navbar-default .navbar-collapse {
+
+  background-color: #FFFFFF;
+
+}
+
+
 .navbar-default .navbar-collapse > ul > li > a {
 
   color: #B30000;
