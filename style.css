@@ -1,12 +1,14 @@
 /* Navbar */
+body {background color: brown;
+  }
 
 .navbar-default {
-  background-color: #FFFFFF;
+  background-color: gray;
   border-color: #E7E7E7;
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: black;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -31,7 +33,7 @@ h1 {
 /* Single Box */
 
 .box {
-  background-color: #F7F7F7;
+  background-color: gray;
   margin-top: 60px;
   padding: 40px;
 }
