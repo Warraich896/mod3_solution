@@ -68,7 +68,11 @@
 
   }
 
+navbar-nav > li {
 
+    display: none;
+
+  }
 
 /* Show the heading buttons when menu button is clicked */
 
