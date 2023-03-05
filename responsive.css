@@ -18,9 +18,17 @@
 }
 
 /* Show the heading buttons when menu button is clicked */
-.collapse.in > ul {
-  display: block;
+.navbar-default .navbar-collapse > ul > li > a {
+
+  color: #B30000;
+
+  font-size: 24px;
+
+  font-weight: bold;
+
 }
+
+
 
 /* Increase top margin of h1 in mobile mode */
 .container > h1 {
