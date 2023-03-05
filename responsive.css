@@ -1,0 +1,76 @@
+/* Mobile Layout: 0px to 767px. */
+
+/* Hide the food LLC brand in mobile mode */
+.navbar-brand.visible-xs {
+  display: none;
+}
+
+/* Show the menu button in mobile mode */
+.navbar-toggle {
+  display: block;
+}
+
+/* Hide the heading buttons in mobile mode */
+.navbar-nav > li {
+  display: none;
+}
+
+/* Show the heading buttons when menu button is clicked */
+.collapse.in > ul {
+  display: block;
+}
+
+/* Increase top margin of h1 in mobile mode */
+.container > h1 {
+  margin-top: 40px;
+}
+
+
+/* Tablet Layout: 768px to 991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Show the food LLC brand in tablet mode */
+  .navbar-brand.visible-xs {
+    display: block;
+  }
+
+  /* Hide the heading buttons in tablet mode */
+  .navbar-nav > li {
+    display: none;
+  }
+
+  /* Show the heading buttons when menu button is clicked */
+  .collapse.in > ul {
+    display: block;
+  }
+
+  /* Increase top margin of h1 in tablet mode */
+  .container > h1 {
+    margin-top: 40px;
+  }
+}
+
+
+/* Desktop Layout: 992px and up. */
+
+@media (min-width: 992px) {
+  /* Show the food LLC brand in desktop mode */
+  .navbar-brand.visible-xs {
+    display: block;
+  }
+
+  /* Show the heading buttons in desktop mode */
+  .navbar-nav > li {
+    display: block;
+  }
+
+  /* Hide the menu button in desktop mode */
+  .navbar-toggle {
+    display: none;
+  }
+
+  /* Remove the top margin of h1 in desktop mode */
+  .container > h1 {
+    margin-top: 0;
+  }
+}
