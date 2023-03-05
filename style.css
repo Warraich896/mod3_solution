@@ -3,7 +3,7 @@ body {background color: brown;
   }
 
 .navbar-default {
-  background-color: gray;
+  background-color: white;
   border-color: #E7E7E7;
 }
 
@@ -33,7 +33,7 @@ h1 {
 /* Single Box */
 
 .box {
-  background-color: gray;
+  background-color: red;
   margin-top: 60px;
   padding: 40px;
 }
