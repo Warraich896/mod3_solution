@@ -10,9 +10,7 @@
 }
 
 /* Hide the heading buttons in mobile mode */
-.navbar-nav > li {
-  display: none;
-}
+
 
 /* Show the heading buttons when menu button is clicked */
 .navbar-default .navbar-toggle:focus,
