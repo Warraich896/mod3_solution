@@ -56,27 +56,9 @@
 
 /* Tablet Layout: 768px to 991px. */
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Show the food LLC brand in tablet mode */
-  .navbar-brand.visible-xs {
-    display: block;
-  }
 
-  /* Hide the heading buttons in tablet mode */
-  .navbar-nav > li {
-    display: none;
-  }
-
-  /* Show the heading buttons when menu button is clicked */
-  .collapse.in > ul {
-    display: block;
-  }
-
-  /* Increase top margin of h1 in tablet mode */
-  .container > h1 {
-    margin-top: 40px;
-  }
-}
+ 
+  
 
 
 /* Desktop Layout: 992px and up. */
